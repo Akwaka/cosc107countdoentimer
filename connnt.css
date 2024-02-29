@@ -1,0 +1,133 @@
+body{
+    background-color: white;
+    background-image: url("luke.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: 100%;
+    }
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: green;
+    width: 100%;
+    font-size: 30px;
+    text-align: justify;
+    justify-content: space-around;
+    height: 100px;
+    display: flex;
+
+    }
+#countdown{
+    height: 79px;
+    font-size: 500px;
+    background-color: green;
+    padding: 50px;
+    margin-bottom: 5px;
+}
+    li {
+    float: left;
+    justify-content: space-between;
+   
+    }
+
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+    margin-bottom: 2px;
+    }
+    .ul li a {
+        color: red;
+      
+    }
+
+    li a:hover {
+    background-color:lightgreen;
+    }
+    .note{
+        color: black;
+        width: 100%;
+        
+        margin-top: 800px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 50;
+        font-size: 25px;
+        font-display: absolute;
+        margin-left: 60px;
+    }
+    h1{
+        justify-content: center;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 50;
+        font-size: 50px;
+        font-display: absolute;
+        color: black;
+    }
+        #countdown {
+            font-size: 70px;
+            color: black;
+            border-radius: 15px;
+            padding: 20px;
+           margin-top: 60px;
+        }
+img{
+    width: 650px;
+    height: 400px;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+button{
+    height: 80px;
+    width: 110px;
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-left: 350px;
+}
+button a{
+color: white;
+}
+button a:hover{
+    color: red;
+    }
+.vi{
+    display: block;
+    margin-left: 150px;
+    color: white;
+}
+
+h3{
+    color: green;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h4{
+    color: black;
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 20;
+}
+h4 a{
+    color: blue;
+    
+}
+h4 a:hover{
+    color: red;
+    margin-top: 20px;
+}
